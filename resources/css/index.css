@@ -1,32 +1,10 @@
-body {
-    font-family: Helvetica, sans-serif;
+* {
+    box-sizing: border-box;
 }
-
-.price {
-    font-weight: bold;
-    color: blue;
-}
-.section-header {
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-}
-#main-header {
+.banner {
     text-align: center;
-    font-size: 100px;
-    font-weight: bold;
-    color: khaki;
-    background-image: url('./../images/pattern.webp');
-}
-
-#brushes-header{
-    background-color: mediumspringgreen;
-}
-
-#frames-header{
-    background-color: lightcoral;
-}
-
-#paint-header{
-    background-color: skyblue;
+    background-color: #4d4d4d;
+    padding: 100px;
+    color: green;
+    font-size: 50px;
 }
