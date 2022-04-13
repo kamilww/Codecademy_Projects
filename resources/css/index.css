@@ -1,4 +1,9 @@
 /*basic text styling*/
+* {
+    line-break: 5px;
+    line-height: 2px;
+}
+
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
@@ -27,6 +32,7 @@ li {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 300;
+    list-style: square;
 }
 
 /*main header styling*/
@@ -39,10 +45,13 @@ nav {
     position: sticky;
     z-index: 1;
     top: 0;
+    height: 25px;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
 }
 
 li a:hover {
