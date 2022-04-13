@@ -41,8 +41,22 @@ li a:active {
 }
 
 /*color section specific styling*/
+#colors {
+    margin: 30px 50px;
+    padding: 5px;
+}
+
+#color-box {
+    display: inline-block;
+    margin-top: 15px;
+}
 
 /*font section specific styling*/
+#fonts {
+    margin: 30px 50px;
+    padding: 5px;
+}
+
 .roboto-mono {
     font-family: 'Roboto Mono', monospace;
 }
@@ -60,4 +74,10 @@ li a:active {
 }
 .italic-font {
     font-style: italic;
+}
+
+/*text-styles section specific styling*/
+#text-styles {
+    margin: 30px 50px;
+    padding: 5px;
 }
