@@ -1,3 +1,4 @@
+/*basic text styling*/
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
@@ -19,8 +20,39 @@ p {
     font-size: 12px;
 }
 
+/*page navigation link styling*/
 nav {
     font-family: 'Roboto', sans-serif;
+    background-color: #b7f1ed;
+    position: sticky;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline;
+}
+
+li a:hover {
+    color:#7d7d7d
+}
+
+li a:active {
+    color: #356232
+}
+
+/*color section specific styling*/
+
+/*font section specific styling*/
+.roboto-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .bold-font {
@@ -28,16 +60,4 @@ nav {
 }
 .italic-font {
     font-style: italic;
-}
-
-#font1 {
-    font-family: 'Roboto Mono', monospace;
-}
-
-#font2 {
-    font-family: 'Roboto', sans-serif;
-}
-
-#font3 {
-    font-family: font-family: 'Open Sans', sans-serif;
 }
