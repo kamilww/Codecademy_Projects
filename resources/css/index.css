@@ -20,12 +20,16 @@ p {
     font-size: 12px;
 }
 
+/*main header styling*/
+
+
 /*page navigation link styling*/
 nav {
     font-family: 'Roboto', sans-serif;
     background-color: #b7f1ed;
     position: sticky;
     z-index: 1;
+    top: 0;
 }
 
 nav ul li {
@@ -42,19 +46,37 @@ li a:active {
 
 /*color section specific styling*/
 #colors {
-    margin: 30px 50px;
+    margin: 30px 100px;
     padding: 5px;
+    border: 2px solid black;
 }
 
-#color-box {
+.color-box {
     display: inline-block;
     margin-top: 15px;
 }
 
+#sky-blue {
+    background-color: #b7f1ed;
+}
+
+#steel-gray {
+    background-color: #7d7d7d;
+}
+
+#dark-green {
+    background-color: #356232;
+}
+
+#beige {
+    background-color: #dccabc;
+}
 /*font section specific styling*/
 #fonts {
-    margin: 30px 50px;
+    margin: 30px 100px;
     padding: 5px;
+    width: 100%;
+    border: 2px solid black;
 }
 
 .roboto-mono {
@@ -78,6 +100,8 @@ li a:active {
 
 /*text-styles section specific styling*/
 #text-styles {
-    margin: 30px 50px;
+    margin: 30px 100px;
     padding: 5px;
+    width: 100%;
+    border: 2px solid black;
 }
