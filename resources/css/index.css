@@ -1,23 +1,32 @@
 /*basic text styling*/
 h1 {
     font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 44px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 34px;
+    font-weight: 400;
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 /*main header styling*/
@@ -47,13 +56,15 @@ li a:active {
 /*color section specific styling*/
 #colors {
     margin: 30px 100px;
-    padding: 5px;
+    padding: 15px;
     border: 2px solid black;
 }
 
 .color-box {
     display: inline-block;
-    margin-top: 15px;
+    margin: 15px;
+    text-align: center;
+    padding: 10px 50px;
 }
 
 #sky-blue {
@@ -74,11 +85,14 @@ li a:active {
 /*font section specific styling*/
 #fonts {
     margin: 30px 100px;
-    padding: 5px;
-    width: 100%;
+    padding: 15px;
     border: 2px solid black;
 }
 
+.font-box {
+    margin: 15px;
+    display: inline-block;
+}
 .roboto-mono {
     font-family: 'Roboto Mono', monospace;
 }
@@ -101,7 +115,6 @@ li a:active {
 /*text-styles section specific styling*/
 #text-styles {
     margin: 30px 100px;
-    padding: 5px;
-    width: 100%;
+    padding: 15px;
     border: 2px solid black;
 }
