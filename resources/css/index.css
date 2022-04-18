@@ -1,7 +1,6 @@
 /*basic text styling*/
 * {
-    line-break: 5px;
-    line-height: 2px;
+    line-height: 2;
 }
 
 h1 {
