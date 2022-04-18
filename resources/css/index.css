@@ -35,7 +35,10 @@ li {
 }
 
 /*main header styling*/
-
+#main-page-header {
+    margin: 30px 100px;
+    padding: 15px;
+}
 
 /*page navigation link styling*/
 nav {
@@ -45,6 +48,7 @@ nav {
     z-index: 1;
     top: 0;
     height: 25px;
+    padding: 5px;
 }
 
 nav ul li {
@@ -125,4 +129,8 @@ li a:active {
     margin: 30px 100px;
     padding: 15px;
     border: 2px solid black;
+}
+
+.text-box {
+    margin: 15px;
 }
